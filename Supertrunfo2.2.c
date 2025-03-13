@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
     char estado[50],estado2[50], codigocarta[50],codigocarta2[50], nomecidade[50], nomecidade2[50]; //A variável estado, será uma letra representando um dos 8 estados. // codigocarta: A letra do estado seguida de um número de 01 a 04 (ex: A01, B03) // A variável, nomecidade irá representar o nome da cidade.
     int populacao,populacao2, pontoturistico,pontoturistico2; //A variável população representa o número de habitantes.// A variável, pontoturistico, representa a quantidade de pontos turisticos.
