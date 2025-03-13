@@ -6,7 +6,6 @@ int main() {
     float area,area2, pib,pib2;// Variável area, representa a quantidade de Kilometros quadrados. // A variável pib, representa o produto interno bruto daquele local.
     float densidadeP, densidadeP2;
     float pibP,pibP2;
-
     
     printf("DADOS DA CARTA1\n");
     printf("Qual o seu estado?\n");//Irá perguntar ao usuário o estado.
@@ -29,7 +28,6 @@ int main() {
 
     printf("Quantidade de pontos turísticos:\n");// Irá perguntar a quantidade de pontos turísticos.
     scanf("%d", &pontoturistico); // Irá ler o resultado em números inteiros.
-
 
     densidadeP = (float) populacao / area;
     pibP = (float)pib / populacao;
@@ -84,21 +82,21 @@ int main() {
     printf("densidade populacional:%.4f",densidadeP2);
     printf("Pib percapta é:%.4f",pibP2);
 
-    if (area>area2)
+    if (area>area2)// comparação entre areas para decidir o vencedor
     {
         printf("Carta 1 possui uma area maior.\n");
     }  else{
         printf("Carta 2 tem uma area maior\n");
     }
     
-    if (populacao>populacao2)
+    if (populacao>populacao2)//comparação entre população para ver o vencedor
     {
         printf("Carta 1 possui uma população maior.\n");
     } else{
         printf("Carta 2 tem uma população maior.\n");
     }
     
-    if (pib>pib2)
+    if (pib>pib2)//comparação entre pib para ver o vencedor
     {
         printf("Carta 1 possui um PIB maior.\n");
     } else{
